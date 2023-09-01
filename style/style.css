@@ -1,0 +1,210 @@
+body{
+    font-family: 'HankenGrotesk', Courier, monospace;
+}
+/*parte do container*/
+:root{
+    font-size: 62.5%;
+}
+.container{
+    height: 43.0rem;
+    width: 62.0rem;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 3.0rem;
+    box-shadow: 1.0rem 2.5rem 1.5rem  #ebf1ff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+/*Nessa parte estou dando estilo a parte do resultado*/
+.result {
+    position: absolute;
+    float:left;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 3.0rem;
+    background: linear-gradient(to bottom, #7857ff,20%, #2e2be9);
+    height: 40.0rem;
+    width: 28.0rem;
+    font-weight: bold;
+}
+.circle {
+    position: relative;
+    bottom: 2.0rem;
+    background: linear-gradient(to top, #2421ca00, #4e21ca);
+    width: 16.0rem;
+    height: 16.0rem;
+    border-radius: 90%;
+    margin: auto;
+    line-height: 0.5rem;
+}
+#paragra_circle{
+    position: relative;
+    bottom: 8.0rem;
+    font-size: 1.5rem;
+    color: #c8c7ff;
+}
+.text{
+    position: relative;
+    bottom: 5.0rem;
+    width: 20.0rem;
+    font-size: 1.5rem;
+    margin: auto;
+    color: #c8c7ff;
+    font-weight: 500;
+}
+/*Nessa parte estou dando estilo a parte do sumário*/
+.summary{
+    max-width: 25.0rem;
+    width: 28.0rem;
+    padding-top: 0.4rem;
+    float: right;
+    margin-right: 3.0rem;
+}
+
+ul{
+    padding:0;
+}
+button{
+    background-color: #303b5a;
+    color: #ffffff;
+    font-family:"HankenGrotesk";
+    height: 5.0rem;
+    width: 100%;
+    border: none;
+    border-radius: 3.0rem;
+    font-size: 1.6rem;
+    margin-top: 2.0rem;
+}
+.list{
+    
+    border-radius: 0.8rem;
+    height: 4.6rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.0rem;
+    line-height: 4.6rem;
+    font-size: 1.5rem;
+}
+#item1{
+    background-color: #fce7e9;
+    color: #ff5757;
+    list-style: none;
+}
+#item2{
+    background-color: #f9dca2;
+    color: #ffb01f;
+    list-style: none;
+}
+#item3{
+    background-color: #e4fefb;
+    color: #00bd91;
+    list-style: none;
+}
+#item4{
+    background-color: #eef0ff;
+    color: #1125d4;
+    list-style: none;
+}
+img{
+    margin-right: 0.9rem;
+    transform: translateY(24%);
+}
+strong{
+    color: #000000;
+}
+span{
+    color: #958f8f;
+    float: right;
+    margin-right: 0.9rem;
+    font-weight: bold;
+}
+/* estilização do títulos  */
+h1{
+    color: #c8c7ff;
+    font-size: 2.0rem;
+}
+h4{
+
+    color: #000000;
+    font-size: 2.0rem;
+}
+h2{
+    line-height: 15.0rem;
+    align-items: center;
+    font-size: 6.0rem;
+    color: #ffffff;
+}
+h3{
+    position: relative;
+    bottom: 3.0rem;
+    font-size: 3.0rem;
+    color: #ffffff;   
+}
+@font-face {
+    font-family:"HankenGrotesk";
+    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+@media screen and (max-width: 850px) {
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    :root{
+        font-size: 8px;
+    }
+    html{
+        width: 100%;
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+        
+
+        position: relative;
+        border-radius: 0 0 0 0;
+        box-shadow: 0 0 0 0;
+        top: 0;
+        left: 0;
+        transform: none;
+        /* overflow: hidden; */
+        
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .result {
+        position: relative;
+        float: none;
+        padding: 1.5rem;
+        text-align: center;
+        border-radius: 0 0 20px 20px;
+        height: 100%;
+        width: calc(100% - 30px);
+        font-weight: bold;
+        
+    }
+    .summary{
+       
+        display: flex;
+        flex-direction: column;
+        gap: 1.0rem;
+        margin-bottom: 3.0rem;
+    }
+    .list{
+        width: 100%;
+        border-radius: 0.8rem;
+        margin-bottom: 1.5rem;
+        padding-left: 1.0rem;
+    }
+    ul{
+        width: 110%;
+    }
+    button{
+        
+        width: 113%;
+       
+    }
+}
