@@ -36,4 +36,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 
 **Desenvolvido por SantFabio**
 
-[perfil no GitHub](https://github.com/SantFabio)
+[GitHub](https://github.com/SantFabio)
