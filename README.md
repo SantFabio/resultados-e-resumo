@@ -2,7 +2,7 @@
 
 Um componente de resultados interativos desenvolvido com HTML e CSS, ideal para exibir pontuações e análises de desempenho em várias categorias.
 
-![Screenshot](link_da_sua_imagem_de_screenshot.jpg)
+![Screenshot](https://github.com/SantFabio/resultados-e-resumo/blob/master/design/active-states.jpg )(https://github.com/SantFabio/resultados-e-resumo/blob/master/design/desktop-design.jpg)()()
 
 ## Funcionalidades
 
