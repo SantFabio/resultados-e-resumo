@@ -1,4 +1,4 @@
-# Componente de Resultados Interativos
+# Componente de Resultados e resumos
 
 Um componente de resultados interativos desenvolvido com HTML e CSS, ideal para exibir pontuações e análises de desempenho em várias categorias.
 
