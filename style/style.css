@@ -55,8 +55,7 @@ body{
 }
 /*Nessa parte estou dando estilo a parte do sumário*/
 .summary{
-    max-width: 25.0rem;
-    width: 28.0rem;
+    width: 25.0rem;
     padding-top: 0.4rem;
     float: right;
     margin-right: 3.0rem;
@@ -75,6 +74,7 @@ button{
     border-radius: 3.0rem;
     font-size: 1.6rem;
     margin-top: 2.0rem;
+    cursor: pointer;
 }
 .list{
     
@@ -153,13 +153,10 @@ h3{
     :root{
         font-size: 8px;
     }
-    html{
-        width: 100%;
-    }
+   
     .container{
         height: 100%;
         width: 100%;
-        
 
         position: relative;
         border-radius: 0 0 0 0;
@@ -167,7 +164,6 @@ h3{
         top: 0;
         left: 0;
         transform: none;
-        /* overflow: hidden; */
         
 
         display: flex;
@@ -178,7 +174,7 @@ h3{
     .result {
         position: relative;
         float: none;
-        padding: 1.5rem;
+        padding: 1.9rem;
         text-align: center;
         border-radius: 0 0 20px 20px;
         height: 100%;
@@ -187,24 +183,36 @@ h3{
         
     }
     .summary{
-       
+        width: 70%;
         display: flex;
         flex-direction: column;
-        gap: 1.0rem;
-        margin-bottom: 3.0rem;
+        gap: 0.5rem;
+        margin-bottom: 3.0rem;       
     }
     .list{
+        height: 7.0rem;
         width: 100%;
         border-radius: 0.8rem;
-        margin-bottom: 1.5rem;
-        padding-left: 1.0rem;
+        line-height: 7.5rem;
+        font-size: 1.8rem;
+        padding-left: 2.0rem;
+        padding-right: 2.0rem;
+        margin-bottom: 2.0rem;
     }
     ul{
-        width: 110%;
+        width: 100%;
+        margin-bottom: -1.0rem;
     }
     button{
-        
-        width: 113%;
-       
+        height: 7.0rem;
+        width: 110%;
+        font-size: 2.0rem;
+        border-radius: 4.0rem;
+    }
+    h4{
+        margin-bottom: auto;
+    }
+    .text{
+        width: auto;
     }
 }
