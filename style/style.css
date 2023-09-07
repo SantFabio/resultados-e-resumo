@@ -64,8 +64,9 @@ body{
 ul{
     padding:0;
 }
-button{
-    background-color: #303b5a;
+.button{
+    display: flex;
+    background: linear-gradient(to bottom, #7857ff,20%, #2e2be9);
     color: #ffffff;
     font-family:"HankenGrotesk";
     height: 5.0rem;
@@ -75,6 +76,12 @@ button{
     font-size: 1.6rem;
     margin-top: 2.0rem;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.button:hover{
+    background: linear-gradient(to bottom, #2e2be9,20%, #7857ff);
 }
 .list{
     
@@ -203,11 +210,12 @@ h3{
         width: 100%;
         margin-bottom: -1.0rem;
     }
-    button{
+    .button{
         height: 7.0rem;
-        width: 110%;
+        width: 109%;
         font-size: 2.0rem;
         border-radius: 4.0rem;
+        
     }
     h4{
         margin-bottom: auto;
